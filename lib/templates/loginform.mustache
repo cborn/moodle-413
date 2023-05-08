@@ -184,6 +184,8 @@
         </form>
     {{/canloginasguest}}
     <div class="login-divider"></div>
+    <button onclick="hideLogin()" id="loginOptionButton" class="btn btn-secondary btn-block" role="button">Special Accounts</button>
+
     <div class="d-flex">
         {{#languagemenu}}
             <div class="login-languagemenu">
@@ -198,6 +200,22 @@
         }}>{{#str}}cookiesnotice{{/str}}</button>
     </div>
 </div>
+{{#js}}
+        function hideLogin() {
+            var manual = document.getElementById("manualLogin");
+            var sso = document.getElementById("sso");
+            var button = document.getElementById("loginOptionButton");
+            if (manual.style.display === "none") {
+                manual.style.display = "block";
+                sso.style.display = 'none';
+                button.textContent = 'Click to return to common logins';
+            } else {
+                manual.style.display = "none";
+                sso.style.display = 'block';
+                button.textContent = 'Special Accounts';
+            }
+        }
+{{/js}}
 
 {{#js}}
     {{^error}}
