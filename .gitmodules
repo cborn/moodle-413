@@ -79,3 +79,15 @@
 [submodule "local/userenrols"]
 	path = local/userenrols
 	url = git@github.com:cborn/moodle-local_userenrols
+[submodule "mod/attendance"]
+	path = mod/attendance
+	url = git@github.com:cborn/moodle-mod_attendance
+[submodule "mod/choicegroup"]
+	path = mod/choicegroup
+	url = git@github.com:cborn/moodle-mod_choicegroup
+[submodule "mod/questionnaire"]
+	path = mod/questionnaire
+	url = git@github.com:cborn/moodle-mod_questionnaire
+[submodule "mod/treasurehunt"]
+	path = mod/treasurehunt
+	url = git@github.com:cborn/moodle-mod_treasurehunt
