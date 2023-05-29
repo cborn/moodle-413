@@ -133,3 +133,9 @@
 [submodule "report/roster"]
 	path = report/roster
 	url = git@github.com:cborn/moodle-report_roster
+[submodule "theme/learnr"]
+	path = theme/learnr
+	url = git@github.com:cborn/moodle-theme_learnr
+[submodule "theme/moove"]
+	path = theme/moove
+	url = git@github.com:cborn/moodle-theme_moove
