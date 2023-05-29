@@ -157,3 +157,12 @@
 [submodule "lib/editor/atto/plugins/panoptobutton"]
 	path = lib/editor/atto/plugins/panoptobutton
 	url = git@github.com:cborn/Panopto-Button-for-Atto
+[submodule "blocks/panopto"]
+	path = blocks/panopto
+	url = git@github.com:cborn/Moodle-2.0-plugin-for-Panopto.git
+[submodule "blocks/clampmail"]
+	path = blocks/clampmail
+	url = git@github.com:cborn/clampmail
+[submodule "question/type/ddmatch"]
+	path = question/type/ddmatch
+	url = git@github.com:cborn/Drag-and-Drop-Matching.git
