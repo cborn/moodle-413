@@ -139,3 +139,18 @@
 [submodule "theme/moove"]
 	path = theme/moove
 	url = git@github.com:cborn/moodle-theme_moove
+[submodule "admin/tool/coursedates"]
+	path = admin/tool/coursedates
+	url = git@github.com:cborn/moodle-tool_coursedates
+[submodule "admin/tool/deletecourses"]
+	path = admin/tool/deletecourses
+	url = git@github.com:cborn/moodle-tool_deletecourses
+[submodule "admin/tool/groupautoenrol"]
+	path = admin/tool/groupautoenrol
+	url = git@github.com:cborn/moodle-tool_groupautoenrol
+[submodule "admin/tool/uploadenrolmentmethods"]
+	path = admin/tool/uploadenrolmentmethods
+	url = git@github.com:cborn/moodle-tool_uploadenrolmentmethods
+[submodule "lib/editor/atto/plugins/panopto"]
+	path = lib/editor/atto/plugins/panopto
+	url = git@github.com:cborn/Panopto-Button-for-Atto
