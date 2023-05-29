@@ -109,3 +109,15 @@
 [submodule "question/format/wordtable"]
 	path = question/format/wordtable
 	url = git@github.com:cborn/moodle-qformat_wordtable
+[submodule "question/type/formulas"]
+	path = question/type/formulas
+	url = git@github.com:cborn/moodle-qtype_formulas
+[submodule "question/type/gapfill"]
+	path = question/type/gapfill
+	url = git@github.com:cborn/moodle-qtype_gapfill
+[submodule "question/type/pmatch"]
+	path = question/type/pmatch
+	url = git@github.com:cborn/moodle-qtype_pmatch
+[submodule "question/type/regexp"]
+	path = question/type/regexp
+	url = git@github.com:cborn/moodle-qtype_regexp
