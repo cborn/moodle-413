@@ -34,3 +34,21 @@
 [submodule "availability/condition/xp"]
 	path = availability/condition/xp
 	url = git@github.com:cborn/moodle-availability_xp
+[submodule "blocks/attendance"]
+	path = blocks/attendance
+	url = git@github.com:cborn/moodle-block_attendance
+[submodule "blocks/completion_progress"]
+	path = blocks/completion_progress
+	url = git@github.com:cborn/moodle-block_completion_progress
+[submodule "blocks/special_chars"]
+	path = blocks/special_chars
+	url = git@github.com:cborn/moodle-block_special_chars
+[submodule "blocks/stash"]
+	path = blocks/stash
+	url = git@github.com:cborn/moodle-block_stash
+[submodule "blocks/uicustomcss"]
+	path = blocks/uicustomcss
+	url = git@github.com:cborn/moodle-block_uicustomcss
+[submodule "blocks/xp"]
+	path = blocks/xp
+	url = git@github.com:cborn/moodle-block_xp
