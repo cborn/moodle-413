@@ -58,3 +58,15 @@
 [submodule "lib/editor/atto/plugins/chemistry"]
 	path = lib/editor/atto/plugins/chemistry
 	url = git@github.com:cborn/moodle-editor_atto-chemistry
+[submodule "filter/shortcodes"]
+	path = filter/shortcodes
+	url = git@github.com:cborn/moodle-filter_shortcodes
+[submodule "course/format/buttons"]
+	path = course/format/buttons
+	url = git@github.com:cborn/moodle-format_buttons
+[submodule "course/format/flexsections"]
+	path = course/format/flexsections
+	url = git@github.com:cborn/moodle-format_flexsections
+[submodule "course/format/tiles"]
+	path = course/format/tiles
+	url = git@github.com:cborn/moodle-format_tiles
