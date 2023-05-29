@@ -121,3 +121,15 @@
 [submodule "question/type/regexp"]
 	path = question/type/regexp
 	url = git@github.com:cborn/moodle-qtype_regexp
+[submodule "mod/quiz/report/group"]
+	path = mod/quiz/report/group
+	url = git@github.com:cborn/moodle-quiz_report_group
+[submodule "report/customsql"]
+	path = report/customsql
+	url = git@github.com:cborn/moodle-report_customsql
+[submodule "report/editdates"]
+	path = report/editdates
+	url = git@github.com:cborn/moodle-report_editdates
+[submodule "report/roster"]
+	path = report/roster
+	url = git@github.com:cborn/moodle-report_roster
