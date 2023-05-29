@@ -52,3 +52,9 @@
 [submodule "blocks/xp"]
 	path = blocks/xp
 	url = git@github.com:cborn/moodle-block_xp
+[submodule "mod/book/tool/wordimport"]
+	path = mod/book/tool/wordimport
+	url = git@github.com:cborn/moodle-booktool_wordimport
+[submodule "lib/editor/atto/plugins/chemistry"]
+	path = lib/editor/atto/plugins/chemistry
+	url = git@github.com:cborn/moodle-editor_atto-chemistry
