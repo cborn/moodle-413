@@ -91,3 +91,12 @@
 [submodule "mod/treasurehunt"]
 	path = mod/treasurehunt
 	url = git@github.com:cborn/moodle-mod_treasurehunt
+[submodule "question/behaviour/adaptivemultipart"]
+	path = question/behaviour/adaptivemultipart
+	url = git@github.com:cborn/moodle-qbehaviour_adaptivemultipart
+[submodule "question/behaviour/regexpadaptivewithhelp"]
+	path = question/behaviour/regexpadaptivewithhelp
+	url = git@github.com:cborn/moodle-qbehaviour_regexpadaptivewithhelp
+[submodule "question/behaviour/regexpadaptivewithhelpnopenalty"]
+	path = question/behaviour/regexpadaptivewithhelpnopenalty
+	url = git@github.com:cborn/moodle-qbehaviour_regexpadaptivewithhelpnopenalty
