@@ -100,3 +100,12 @@
 [submodule "question/behaviour/regexpadaptivewithhelpnopenalty"]
 	path = question/behaviour/regexpadaptivewithhelpnopenalty
 	url = git@github.com:cborn/moodle-qbehaviour_regexpadaptivewithhelpnopenalty
+[submodule "question/format/canvas"]
+	path = question/format/canvas
+	url = git@github.com:cborn/moodle-qformat_canvas
+[submodule "question/format/h5p"]
+	path = question/format/h5p
+	url = git@github.com:cborn/moodle-qformat_h5p
+[submodule "question/format/wordtable"]
+	path = question/format/wordtable
+	url = git@github.com:cborn/moodle-qformat_wordtable
