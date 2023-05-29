@@ -22,3 +22,15 @@
 [submodule "lib/editor/atto/plugins/styles"]
 	path = lib/editor/atto/plugins/styles
 	url = git@github.com:cborn/moodle-atto_styles
+[submodule "auth/saml2"]
+	path = auth/saml2
+	url = git@github.com:cborn/moodle-auth_saml2
+[submodule "availability/condition/relativedate"]
+	path = availability/condition/relativedate
+	url = git@github.com:cborn/moodle-availability_relativedate
+[submodule "availability/condition/stash"]
+	path = availability/condition/stash
+	url = git@github.com:cborn/moodle-availability_stash
+[submodule "availability/condition/xp"]
+	path = availability/condition/xp
+	url = git@github.com:cborn/moodle-availability_xp
