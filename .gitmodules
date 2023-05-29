@@ -70,3 +70,12 @@
 [submodule "course/format/tiles"]
 	path = course/format/tiles
 	url = git@github.com:cborn/moodle-format_tiles
+[submodule "local/metagroups"]
+	path = local/metagroups
+	url = git@github.com:cborn/moodle-local_metagroups
+[submodule "local/mr"]
+	path = local/mr
+	url = git@github.com:cborn/moodle-local_mr
+[submodule "local/userenrols"]
+	path = local/userenrols
+	url = git@github.com:cborn/moodle-local_userenrols
