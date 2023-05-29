@@ -1,0 +1,24 @@
+[submodule "lib/editor/atto/plugins/cloze"]
+	path = lib/editor/atto/plugins/cloze
+	url = git@github.com:cborn/moodle-atto_cloze
+[submodule "lib/editor/atto/plugins/fontsize"]
+	path = lib/editor/atto/plugins/fontsize
+	url = git@github.com:cborn/moodle-atto_fontsize
+[submodule "lib/editor/atto/plugins/fullscreen"]
+	path = lib/editor/atto/plugins/fullscreen
+	url = git@github.com:cborn/moodle-atto_fullscreen
+[submodule "lib/editor/atto/plugins/hr"]
+	path = lib/editor/atto/plugins/hr
+	url = git@github.com:cborn/moodle-atto_hr
+[submodule "lib/editor/atto/plugins/morebackcolors"]
+	path = lib/editor/atto/plugins/morebackcolors
+	url = git@github.com:cborn/moodle-atto_morebackcolors
+[submodule "lib/editor/atto/plugins/morefontcolors"]
+	path = lib/editor/atto/plugins/morefontcolors
+	url = git@github.com:cborn/moodle-atto_morefontcolors
+[submodule "lib/editor/atto/plugins/ruby"]
+	path = lib/editor/atto/plugins/ruby
+	url = git@github.com:cborn/moodle-atto_ruby
+[submodule "lib/editor/atto/plugins/styles"]
+	path = lib/editor/atto/plugins/styles
+	url = git@github.com:cborn/moodle-atto_styles
