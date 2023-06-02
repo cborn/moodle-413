@@ -94,6 +94,22 @@
 }}
 
 <div class="loginform">
+    {{#js}}
+        function hideLogin() {
+        var manual = document.getElementById("login");
+        var sso = document.getElementById("sso");
+        var button = document.getElementById("loginOptionButton");
+        if (manual.style.display === "none") {
+        manual.style.display = "block";
+        sso.style.display = 'none';
+        button.textContent = 'Click to return to common logins';
+        } else {
+        manual.style.display = "none";
+        sso.style.display = 'block';
+        button.textContent = 'Special Accounts';
+        }
+        }
+    {{/js}}
     {{#logourl}}
         <div id="loginlogo" class="login-logo">
             <img id="logoimage" src="{{logourl}}" class="img-fluid" alt="{{sitename}}"/>
@@ -199,22 +215,6 @@
         }}>{{#str}}cookiesnotice{{/str}}</button>
     </div>
 </div>
-{{#js}}
-    function hideLogin() {
-    var manual = document.getElementById("login");
-    var sso = document.getElementById("sso");
-    var button = document.getElementById("loginOptionButton");
-    if (manual.style.display === "none") {
-    manual.style.display = "block";
-    sso.style.display = 'none';
-    button.textContent = 'Click to return to common logins';
-    } else {
-    manual.style.display = "none";
-    sso.style.display = 'block';
-    button.textContent = 'Special Accounts';
-    }
-    }
-{{/js}}
 {{#js}}
     {{^error}}
         {{#autofocusform}}
