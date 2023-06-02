@@ -149,7 +149,7 @@
     </form>
     {{#hasidentityproviders}}
         <div class="login-divider"></div>
-        <div class="login-identityproviders">
+        <div class="login-identityproviders" id="sso">
             <h2 class="login-heading">{{#str}} potentialidps, auth {{/str}}</h2>
             {{#identityproviders}}
                 <a class="btn login-identityprovider-btn btn-block" href="{{url}}">
@@ -202,7 +202,7 @@
 </div>
 {{#js}}
         function hideLogin() {
-            var manual = document.getElementById("manualLogin");
+            var manual = document.getElementById("login");
             var sso = document.getElementById("sso");
             var button = document.getElementById("loginOptionButton");
             if (manual.style.display === "none") {
