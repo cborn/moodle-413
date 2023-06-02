@@ -175,7 +175,6 @@
     {{/cansignup}}
     {{#canloginasguest}}
         <div class="login-divider"></div>
-        <button onclick="hideLogin()" id="loginOptionButton" class="btn btn-secondary btn-block" role="button">Special Accounts</button>
         <h2 class="login-heading">{{#str}}someallowguest{{/str}}</h2>
         <form action="{{loginurl}}" method="post" id="guestlogin">
             <input type="hidden" name="logintoken" value="{{logintoken}}">
@@ -185,6 +184,7 @@
         </form>
     {{/canloginasguest}}
     <div class="login-divider"></div>
+    <button onclick="hideLogin()" id="loginOptionButton" class="btn btn-secondary btn-block" role="button">Special Accounts</button>
     <div class="d-flex">
         {{#languagemenu}}
             <div class="login-languagemenu">
