@@ -149,7 +149,7 @@
     </form>
     {{#hasidentityproviders}}
         <div class="login-divider"></div>
-        <div class="login-identityproviders">
+        <div class="login-identityproviders" id="sso">
             <h2 class="login-heading">{{#str}} potentialidps, auth {{/str}}</h2>
             {{#identityproviders}}
                 <a class="btn login-identityprovider-btn btn-block" href="{{url}}">
@@ -175,6 +175,7 @@
     {{/cansignup}}
     {{#canloginasguest}}
         <div class="login-divider"></div>
+        <button onclick="hideLogin()" id="loginOptionButton" class="btn btn-secondary btn-block" role="button">Special Accounts</button>
         <h2 class="login-heading">{{#str}}someallowguest{{/str}}</h2>
         <form action="{{loginurl}}" method="post" id="guestlogin">
             <input type="hidden" name="logintoken" value="{{logintoken}}">
@@ -198,7 +199,22 @@
         }}>{{#str}}cookiesnotice{{/str}}</button>
     </div>
 </div>
-
+{{#js}}
+    function hideLogin() {
+    var manual = document.getElementById("login");
+    var sso = document.getElementById("sso");
+    var button = document.getElementById("loginOptionButton");
+    if (manual.style.display === "none") {
+    manual.style.display = "block";
+    sso.style.display = 'none';
+    button.textContent = 'Click to return to common logins';
+    } else {
+    manual.style.display = "none";
+    sso.style.display = 'block';
+    button.textContent = 'Special Accounts';
+    }
+    }
+{{/js}}
 {{#js}}
     {{^error}}
         {{#autofocusform}}
