@@ -166,3 +166,6 @@
 [submodule "question/type/ddmatch"]
 	path = question/type/ddmatch
 	url = git@github.com:cborn/Drag-and-Drop-Matching.git
+[submodule "question/type/stack"]
+	path = question/type/stack
+	url = git@github.com:cborn/moodle-qtype_stack.git
