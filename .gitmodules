@@ -169,3 +169,9 @@
 [submodule "question/type/stack"]
 	path = question/type/stack
 	url = git@github.com:cborn/moodle-qtype_stack.git
+[submodule "question/behaviour/dfcbmexplicitvaildate"]
+	path = question/behaviour/dfcbmexplicitvaildate
+	url = git@github.com:cborn/moodle-qbehaviour_dfcbmexplicitvaildate.git
+[submodule "question/behaviour/dfexplicitvaildate"]
+	path = question/behaviour/dfexplicitvaildate
+	url = git@github.com:cborn/moodle-qbehaviour_dfexplicitvaildate.git
