@@ -93,6 +93,22 @@
     }
 }}
 <div class="loginform">
+    {{#js}}
+        function hideLogin() {
+        var manual = document.getElementById("login");
+        var sso = document.getElementById("sso");
+        var button = document.getElementById("loginOptionButton");
+        if (manual.style.display === "none") {
+        manual.style.display = "block";
+        sso.style.display = 'none';
+        button.textContent = 'Click to return to common logins';
+        } else {
+        manual.style.display = "none";
+        sso.style.display = 'block';
+        button.textContent = 'Special Accounts';
+        }
+        }
+    {{/js}}
     {{#logourl}}
         <div id="loginlogo" class="login-logo">
             <img id="logoimage" src="{{logourl}}" class="img-fluid" alt="{{sitename}}"/>
@@ -114,7 +130,7 @@
     {{#cansignup}}
         <a href="{{signupurl}}" class="sr-only">{{#str}} tocreatenewaccount {{/str}}</a>
     {{/cansignup}}
-    <form class="login-form" action="{{loginurl}}" method="post" id="login" style="display:none">
+    <form class="login-form" action="{{loginurl}}" method="post" id="login">
         <input type="hidden" name="logintoken" value="{{logintoken}}">
         <div class="login-form-username form-group">
             <label for="username" class="sr-only">
