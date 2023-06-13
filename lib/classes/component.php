@@ -388,9 +388,8 @@ class core_component {
             'version'           => self::$version,
         );
 
-        return '<?php
-$cache = '.var_export($cache, true).';
-';
+	
+        return '<?php $cache = '.var_export($cache, true).'; ';
     }
 
     /**
