@@ -175,3 +175,6 @@
 [submodule "question/behaviour/dfexplicitvaildate"]
 	path = question/behaviour/dfexplicitvaildate
 	url = git@github.com:cborn/moodle-qbehaviour_dfexplicitvaildate.git
+[submodule "mod/moodle-mod_choicegroup"]
+	path = mod/moodle-mod_choicegroup
+	url = git@github.com:cborn/moodle-mod_choicegroup.git
