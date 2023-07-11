@@ -151,3 +151,6 @@
 [submodule "lib/editor/atto/plugins/panoptobutton"]
 	path = lib/editor/atto/plugins/panoptobutton
 	url = git@github.com:cborn/Panopto-Button-for-Atto.git
+[submodule "mod/panoptosubmission"]
+	path = mod/panoptosubmission
+	url = https://github.com/Panopto/moodle-mod_panoptosubmission.git
