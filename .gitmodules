@@ -64,3 +64,90 @@
 [submodule "question/behaviour/dfexplicitvaildate"]
 	path = question/behaviour/dfexplicitvaildate
 	url = git@github.com:cborn/moodle-qbehaviour_dfexplicitvaildate.git
+[submodule "question/format/canvas"]
+	path = question/format/canvas
+	url = git@github.com:cborn/moodle-qformat_canvas.git
+[submodule "question/format/wordtable"]
+	path = question/format/wordtable
+	url = git@github.com:cborn/moodle-qformat_wordtable.git
+[submodule "question/format/h5p"]
+	path = question/format/h5p
+	url = git@github.com:cborn/moodle-qformat_h5p.git
+[submodule "lib/editor/atto/plugins/styles"]
+	path = lib/editor/atto/plugins/styles
+	url = git@github.com:cborn/moodle-atto_styles.git
+[submodule "lib/editor/atto/plugins/cloze"]
+	path = lib/editor/atto/plugins/cloze
+	url = git@github.com:cborn/moodle-atto_cloze.git
+[submodule "lib/editor/atto/plugins/fullscreen"]
+	path = lib/editor/atto/plugins/fullscreen
+	url = git@github.com:cborn/moodle-atto_fullscreen.git
+[submodule "lib/editor/atto/plugins/morefontcolors"]
+	path = lib/editor/atto/plugins/morefontcolors
+	url = git@github.com:cborn/moodle-atto_morefontcolors.git
+[submodule "lib/editor/atto/plugins/hr"]
+	path = lib/editor/atto/plugins/hr
+	url = git@github.com:cborn/moodle-atto_hr.git
+[submodule "lib/editor/atto/plugins/fontsize"]
+	path = lib/editor/atto/plugins/fontsize
+	url = git@github.com:cborn/moodle-atto_fontsize.git
+[submodule "lib/editor/atto/plugins/morebackcolors"]
+	path = lib/editor/atto/plugins/morebackcolors
+	url = git@github.com:cborn/moodle-atto_morebackcolors.git
+[submodule "lib/editor/atto/plugins/chemistry"]
+	path = lib/editor/atto/plugins/chemistry
+	url = git@github.com:cborn/moodle-editor_atto-chemistry.git
+[submodule "lib/editor/atto/plugins/ruby"]
+	path = lib/editor/atto/plugins/ruby
+	url = git@github.com:cborn/moodle-atto_ruby.git
+[submodule "filter/shortcodes"]
+	path = filter/shortcodes
+	url = git@github.com:cborn/moodle-filter_shortcodes.git
+[submodule "admin/tool/coursedates"]
+	path = admin/tool/coursedates
+	url = git@github.com:cborn/moodle-tool_coursedates.git
+[submodule "admin/tool/deletecourses"]
+	path = admin/tool/deletecourses
+	url = git@github.com:cborn/moodle-tool_deletecourses.git
+[submodule "admin/tool/groupautoenrol"]
+	path = admin/tool/groupautoenrol
+	url = git@github.com:cborn/moodle-tool_groupautoenrol.git
+[submodule "admin/tool/uploadenrolmentmethods"]
+	path = admin/tool/uploadenrolmentmethods
+	url = git@github.com:cborn/moodle-tool_uploadenrolmentmethods.git
+[submodule "availability/condition/xp"]
+	path = availability/condition/xp
+	url = git@github.com:cborn/moodle-availability_xp.git
+[submodule "availability/condition/relativedate"]
+	path = availability/condition/relativedate
+	url = git@github.com:cborn/moodle-availability_relativedate.git
+[submodule "availability/condition/stash"]
+	path = availability/condition/stash
+	url = git@github.com:cborn/moodle-availability_stash.git
+[submodule "report/customsql"]
+	path = report/customsql
+	url = git@github.com:cborn/moodle-report_customsql.git
+[submodule "report/roster"]
+	path = report/roster
+	url = git@github.com:cborn/moodle-report_roster.git
+[submodule "report/editdates"]
+	path = report/editdates
+	url = git@github.com:cborn/moodle-report_editdates.git
+[submodule "local/mr"]
+	path = local/mr
+	url = git@github.com:cborn/moodle-local_mr.git
+[submodule "local/metagroups"]
+	path = local/metagroups
+	url = git@github.com:cborn/moodle-local_metagroups.git
+[submodule "local/userenrols"]
+	path = local/userenrols
+	url = git@github.com:cborn/moodle-local_userenrols.git
+[submodule "auth/saml2"]
+	path = auth/saml2
+	url = git@github.com:cborn/moodle-auth_saml2.git
+[submodule "question/type/ddmatch"]
+	path = question/type/ddmatch
+	url = git@github.com:cborn/Drag-and-Drop-Matching.git
+[submodule "lib/editor/atto/plugins/panoptobutton"]
+	path = lib/editor/atto/plugins/panoptobutton
+	url = git@github.com:cborn/Panopto-Button-for-Atto.git
