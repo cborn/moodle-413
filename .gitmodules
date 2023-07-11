@@ -1,0 +1,66 @@
+[submodule "moodle-theme_learnr"]
+	path = moodle-theme_learnr
+	url = git@github.com:cborn/moodle-theme_learnr.git
+[submodule "theme/learnr"]
+	path = theme/learnr
+	url = git@github.com:cborn/moodle-theme_learnr.git
+[submodule "theme/moove"]
+	path = theme/moove
+	url = git@github.com:cborn/moodle-theme_moove.git
+[submodule "mod/attendance"]
+	path = mod/attendance
+	url = git@github.com:cborn/moodle-mod_attendance.git
+[submodule "mod/questionnaire"]
+	path = mod/questionnaire
+	url = git@github.com:cborn/moodle-mod_questionnaire.git
+[submodule "mod/treasurehunt"]
+	path = mod/treasurehunt
+	url = git@github.com:cborn/moodle-mod_treasurehunt.git
+[submodule "mod/book/tool/wordimport"]
+	path = mod/book/tool/wordimport
+	url = git@github.com:cborn/moodle-booktool_wordimport.git
+[submodule "mod/quiz/report/group"]
+	path = mod/quiz/report/group
+	url = git@github.com:cborn/moodle-quiz_report_group.git
+[submodule "blocks/clampmail"]
+	path = blocks/clampmail
+	url = git@github.com:cborn/clampmail.git
+[submodule "blocks/xp"]
+	path = blocks/xp
+	url = git@github.com:cborn/moodle-block_xp.git
+[submodule "blocks/completion_progress"]
+	path = blocks/completion_progress
+	url = git@github.com:cborn/moodle-block_completion_progress.git
+[submodule "blocks/special_chars"]
+	path = blocks/special_chars
+	url = git@github.com:cborn/moodle-block_special_chars.git
+[submodule "blocks/attendance"]
+	path = blocks/attendance
+	url = git@github.com:cborn/moodle-block_attendance.git
+[submodule "blocks/uicustomcss"]
+	path = blocks/uicustomcss
+	url = git@github.com:cborn/moodle-block_uicustomcss.git
+[submodule "blocks/stash"]
+	path = blocks/stash
+	url = git@github.com:cborn/moodle-block_stash.git
+[submodule "blocks/panopto"]
+	path = blocks/panopto
+	url = git@github.com:cborn/Moodle-2.0-plugin-for-Panopto.git
+[submodule "question/type/formulas"]
+	path = question/type/formulas
+	url = git@github.com:cborn/moodle-qtype_formulas.git
+[submodule "question/type/pmatch"]
+	path = question/type/pmatch
+	url = git@github.com:cborn/moodle-qtype_pmatch.git
+[submodule "question/type/gapfill"]
+	path = question/type/gapfill
+	url = git@github.com:cborn/moodle-qtype_gapfill.git
+[submodule "question/behaviour/adaptivemultipart"]
+	path = question/behaviour/adaptivemultipart
+	url = git@github.com:cborn/moodle-qbehaviour_adaptivemultipart.git
+[submodule "question/behaviour/dfcbmexplicitvaildate"]
+	path = question/behaviour/dfcbmexplicitvaildate
+	url = git@github.com:cborn/moodle-qbehaviour_dfcbmexplicitvaildate.git
+[submodule "question/behaviour/dfexplicitvaildate"]
+	path = question/behaviour/dfexplicitvaildate
+	url = git@github.com:cborn/moodle-qbehaviour_dfexplicitvaildate.git
